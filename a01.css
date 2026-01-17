@@ -242,6 +242,7 @@ header .buton .btn{
     margin-top: 240px;
     gap: 60px;
     justify-content: center;
+    margin-bottom: 120px;
     
     
     
@@ -282,3 +283,47 @@ header .buton .btn{
     width: 16.25px;
     height: 16.25px;
 }
+
+/* Early Access Section  */
+
+#Early-Access{
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+}
+#Early-Access .Access{
+    margin-bottom: 120px;
+}
+#Early-Access .Access h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 80px;
+    margin-bottom: 16px;
+    }
+    #Early-Access .Access .st{
+        font-size: 16px;
+        color: #627382;
+
+        margin-bottom: 24px;
+    }
+#Early-Access .Access .nd{
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 80px;
+}
+
+#Early-Access .Access button{
+    
+    
+    background-color: #469165;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 16.5px 16px;
+    margin-bottom: 16px;
+    
+}
+     
