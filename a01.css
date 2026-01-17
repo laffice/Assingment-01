@@ -184,17 +184,14 @@ header .buton .btn{
    
     
 }
-#Notes-section .note .description{
-    /* width: 322px; */
-    /* height: 300px; */
+
    
     
-}
+
 #Notes-section .notes .image{
     width: 60px;
     height: 60px;
-    /* clip-path: circle(50% at 50% 50%); */
-    /* padding: 69.5px 131px 16px 131px; */
+  
      padding-left: 131px; 
      padding-right: 131px; 
      margin-top: 60px;
@@ -208,7 +205,7 @@ header .buton .btn{
     border-radius: 50%;
     padding: 14.4px 13.91px 13.96px 14.09px;
     object-fit: contain;
-    /* background-size: contain; */
+   
 }
 #Notes-section .notes .description h2{
     font-size: 24px;
@@ -224,11 +221,64 @@ header .buton .btn{
 }
 
 .note-sections{
-    /* padding: 24px; */
-    /* border: 1px solid red; */
+   
     width: 322px;
     height: 300px;
    padding:24px;
    box-shadow: 0px 0px 8px 0px;
    border-radius: 8px;
+}
+
+/* This is Brain section  */
+#brain-section{
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    
+
+}
+#brain-section .brain{
+    display: flex;
+    margin-top: 240px;
+    gap: 60px;
+    justify-content: center;
+    
+    
+    
+}
+#brain-section .brain .brain-image img{
+    width: 600px;
+    height: 600px;
+}
+
+.brain-container .captions .title{
+    color: #469165;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+#brain-section .brain-container h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+#brain-section .brain-container .contents{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+
+#brain-section .brain .points ul li{
+    list-style: none; 
+    margin-bottom: 16px;
+    
+}
+
+#brain-section .brain .brain-container{
+    margin-top: 102px;
+}
+#brain-section .points img{
+    width: 16.25px;
+    height: 16.25px;
 }
