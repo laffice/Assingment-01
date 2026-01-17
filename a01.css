@@ -1,0 +1,147 @@
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+*{
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+
+
+    /* This is Navbar */
+
+.navbar{
+    
+    align-items: center;
+    display: flex;
+    gap: 346px;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1600px;
+    
+    
+    margin-top: 16px;
+}
+.navbar img{
+    width: 139px;
+    height: 60px;
+    margin-left: 120px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+    
+}
+
+.navbar .navigations ul{
+    display: flex;
+    color: black;
+    width: 364px; 
+    gap: 32px;
+    
+}
+.navbar .navigations li{
+    
+    list-style: none;
+    color: black;
+    font-size: 16px;
+}
+.navbar .navigations li a{
+    text-decoration: none;
+
+}
+.navigations li:hover{
+
+    background-color: bisque;
+}
+
+
+header .buton .btn{
+    width: 164px;
+    height: 44px;
+    margin-right: 120px;
+    background-color: #469165;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#banner{
+    background-image: url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner .banner-container{
+    max-width: 1360px;
+    width: 85%;
+    margin: 0px auto;
+   
+    text-align: center;
+    padding-bottom: 290px;
+    padding-top: 226px;
+    
+}
+
+#banner .banner-container .banner-btn{
+    color: #469165;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 229px;
+    height: 35px;
+    border: none;
+    border-radius: 1000px;
+     
+}
+
+
+#banner .content .first{
+
+   color: #FFFFFF ;
+   font-size: 72px;
+   font-weight: bold;
+   
+}
+#banner .content .second{
+    color: #30B868;
+    font-size: 72px;
+   font-weight: bold;
+}
+#banner .content p{
+    color: #ffffff;
+    margin-top: 16px;
+    line-height: 24px;
+    font-size: 18px;
+    letter-spacing: 0%;
+    
+}
+#banner .banner-container .btn{
+    width: 251px;
+    height: 52px;
+    margin-right: 16px;
+    background-color: #469165;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+#banner .banner-container .bts{
+    width: 198px;
+    height: 52px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid white;
+}
+
