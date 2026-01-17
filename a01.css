@@ -326,4 +326,38 @@ header .buton .btn{
     margin-bottom: 16px;
     
 }
-     
+     /* this is ending */
+
+     .ending{
+        max-width: 1920px;
+        background-color: #001931;
+
+     }
+     .end{
+        align-items: center;
+        max-width: 1360px;
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 120px;
+     }
+
+    .ending .links h5{
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 16px;
+    }
+
+    .ending p{
+        color: #fafafa9d;
+        text-align: center;
+        margin-top: 80px;
+        padding-bottom: 30px;
+    }
+    .ending .links img {
+        height: 20px;
+        width: 20px;
+        margin-right: 16px;
+    }
