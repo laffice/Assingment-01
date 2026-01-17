@@ -74,7 +74,7 @@ header .buton .btn{
     margin-top: 24px;
     margin-bottom: 24px;
 }
-
+/* thi is banner section */
 #banner{
     background-image: url("assets/hero-bg.png");
     background-repeat: no-repeat;
@@ -145,3 +145,90 @@ header .buton .btn{
     border: 1px solid white;
 }
 
+/* this is notes section  */
+
+#Notes-section{
+    max-width: 1360px;
+    width: 85%;
+    margin: 0px auto;
+    gap: 24px;
+    text-align: center;
+    height: 448px;
+   
+}
+#Notes-section .title h1{
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+#Notes-section .title{
+    width: 1360px;
+    height: 152px;
+    
+
+}
+#Notes-section .title p{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 16px;
+}
+
+#Notes-section .notes{
+    display: flex;
+    margin-top: 44px;
+    align-items: center;
+   
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+#Notes-section .note .description{
+    /* width: 322px; */
+    /* height: 300px; */
+   
+    
+}
+#Notes-section .notes .image{
+    width: 60px;
+    height: 60px;
+    /* clip-path: circle(50% at 50% 50%); */
+    /* padding: 69.5px 131px 16px 131px; */
+     padding-left: 131px; 
+     padding-right: 131px; 
+     margin-top: 60px;
+ 
+}
+
+#Notes-section .notes .image img{
+    background-color: #F95555;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 14.4px 13.91px 13.96px 14.09px;
+    object-fit: contain;
+    /* background-size: contain; */
+}
+#Notes-section .notes .description h2{
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+#Notes-section .notes .description p{
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 21px;
+}
+
+.note-sections{
+    /* padding: 24px; */
+    /* border: 1px solid red; */
+    width: 322px;
+    height: 300px;
+   padding:24px;
+   box-shadow: 0px 0px 8px 0px;
+   border-radius: 8px;
+}
